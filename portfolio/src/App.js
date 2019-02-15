@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // Component Imports
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import Contact from './components/contact';
 import Footer from './components/footer';
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -51,6 +52,7 @@ class App extends Component {
         <div className="sections">
           <AboutMe />
           <Projects />
+          <Contact />
         </div>
         <Footer />
       </div>
