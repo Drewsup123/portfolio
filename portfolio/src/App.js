@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+// Component Imports
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Footer from './components/footer';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class App extends Component {
   constructor(){
@@ -37,12 +42,17 @@ class App extends Component {
             <h1>DREW <span id="last-name">JOHNSON</span></h1>
             <div className="change-text">{this.state.words[this.state.selected]}{/*<span className="blinker"></span>*/}</div>
             <div className="logos">
-            <i class="fab fa-linkedin-in"></i>
-              <i class="fab fa-github"></i>
+              <a href="https://github.com/Drewsup123" target="_blank"><i className="fab fa-linkedin-in"></i></a>
+              <a href="https://www.linkedin.com/in/drew-johnson-99ab34171/" target="_blank"><i className="fab fa-github"></i></a>
             </div>
           </div>
         </header>
-        <i class="fa fa-chevron-down"></i>
+        <i className="fa fa-chevron-down"></i>
+        <div className="sections">
+          <AboutMe />
+          <Projects />
+        </div>
+        <Footer />
       </div>
     );
   }
