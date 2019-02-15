@@ -68,3 +68,58 @@ html{
     visibility: hidden; 
   }
 }
+
+.App{
+  width: 100%;
+}
+
+.App header{
+  width:100%;
+  height:100vh;
+  background: grey;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.App header .header-content{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:1px solid black;
+  background:rgba(34,34,34,0.8)
+}
+
+.App header .logos{
+  display: flex;
+  width : 6%;
+  justify-content: space-between;
+}
+
+.App header .logos i{
+  font-size:6rem;
+  transition:0.5s ease;
+}
+.fa-github:hover{
+  color:grey;
+}
+.fa-linkedin-in:hover{
+  color: #007AB9;
+}
+.App header .logos i:hover{
+  cursor : pointer;
+  transition:0.5s ease-in-out;
+}
+
+.App header h1{
+  font-size: 6rem;
+  font-weight: bold;
+}
