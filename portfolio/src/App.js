@@ -34,7 +34,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div className="header-content">
-            <h1>Drew Johnson</h1>
+            <h1>DREW <span id="last-name">JOHNSON</span></h1>
             <div className="change-text">{this.state.words[this.state.selected]}{/*<span className="blinker"></span>*/}</div>
             <div className="logos">
             <i class="fab fa-linkedin-in"></i>
@@ -42,6 +42,7 @@ class App extends Component {
             </div>
           </div>
         </header>
+        <i class="fa fa-chevron-down"></i>
       </div>
     );
   }

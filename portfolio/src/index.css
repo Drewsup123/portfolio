@@ -76,13 +76,14 @@ html{
 .App header{
   width:100%;
   height:100vh;
-  background: grey;
   font-size: 3rem;
+  font-family: 'Roboto';
   font-weight: bold;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+  background: url('https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -94,14 +95,30 @@ html{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border:1px solid black;
-  background:rgba(34,34,34,0.8)
+}
+.App header .header-content h1{
+  color: white;
+  font-family: Arial;
+  font-size: 8rem;
+  font-weight:bold;
+}
+
+#last-name{
+  font-family:'Arial Narrow';
+  font-weight: 100;
+  color:#5FC8F8;
+}
+
+.change-text{
+  color:grey;
+  padding:10px;
 }
 
 .App header .logos{
   display: flex;
   width : 6%;
   justify-content: space-between;
+  color:white;
 }
 
 .App header .logos i{
@@ -116,10 +133,18 @@ html{
 }
 .App header .logos i:hover{
   cursor : pointer;
-  transition:0.5s ease-in-out;
+  transition:0.2s ease-in-out;
 }
-
-.App header h1{
-  font-size: 6rem;
-  font-weight: bold;
+.fa-chevron-down{
+  display: flex;
+  justify-content: center;
+  font-size:5vh;
+  text-align: center;
+  color:grey;
+  margin-top:-10vh;
+  cursor : pointer;
+}
+.fa-chevron-down:hover{
+  color: white;
+  transition: 0.2s;
 }
