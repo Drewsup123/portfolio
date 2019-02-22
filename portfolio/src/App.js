@@ -4,7 +4,8 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
-import { Link, animateScroll as scroll } from "react-scroll";
+import Hexagon from './components/hexagon-cards';
+import { Link, animateScroll as scroll, Element } from "react-scroll";
 
 class App extends Component {
   constructor(){
@@ -43,15 +44,19 @@ class App extends Component {
             <h1>DREW <span id="last-name">JOHNSON</span></h1>
             <div className="change-text">{this.state.words[this.state.selected]}{/*<span className="blinker"></span>*/}</div>
             <div className="logos">
-              <a href="https://github.com/Drewsup123" target="_blank"><i className="fab fa-linkedin-in"></i></a>
-              <a href="https://www.linkedin.com/in/drew-johnson-99ab34171/" target="_blank"><i className="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/drew-johnson-99ab34171/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
+              <a href="http://www.github.com/Drewsup123" target="_blank"><i className="fab fa-github"></i></a>
             </div>
           </div>
         </header>
-        <i className="fa fa-chevron-down"></i>
+        <Link to="test" smooth={true}>
+          <i className="fa fa-chevron-down"></i>
+        </Link>
         <div className="sections">
+          <Element name="test"/>
           <AboutMe />
-          <Projects />
+          {/* <Projects /> */}
+          <Hexagon />
           <Contact />
         </div>
         <Footer />

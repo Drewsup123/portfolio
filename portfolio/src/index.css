@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -130,13 +130,20 @@ a{
 }
 .fa-github:hover{
   color:grey;
+  transition: 0.2s;
 }
 .fa-linkedin-in:hover{
   color: #007AB9;
 }
+.fa-globe:hover{
+  color:rgb(102, 102, 241);
+  transition: 0.2s;
+}
 .App header .logos i:hover{
   cursor : pointer;
   transition:0.2s ease-in-out;
+  /* border-radius:5px; */
+  /* background:rgba(255, 255, 255, 0.7); */
 }
 .fa-chevron-down{
   display: flex;
@@ -245,8 +252,19 @@ a{
 /* 
       PROJECT CARD 
 */
+.projects{
+  display: flex;
+  flex-direction: row;
+  /* background: url("http://www.freebiesgallery.com/wp-content/uploads/2012/11/abstract-backgrounds-09.jpg"); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100vh;
+  width:50%;
+}
 .project-card{
-  width: 15%;
+  width: 20%;
   border: 1px solid black;
   display: flex;
   flex-direction:column;
@@ -267,6 +285,42 @@ a{
 }
 .project-card img{
   width:100%;
+  /* height:50%; */
+}
+
+/* 
+      CONTACT
+*/
+.contact form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+.contact form input{
+  width:10%;
+  border-radius: 5px;
+  box-shadow: none;
+  border:none;
+  border-bottom:1px solid black;
+}
+.contact form input:focus{
+  border-bottom:1px solid black;
+  box-shadow: 0 3px 2px rgba(81, 203, 238, 1);
+  outline-width:0;
+}
+.contact #message{
+  border-radius: 7px;
+  box-shadow: none;
+  border:none;
+  border-bottom:1px solid black;
+  border-left:1px solid black;
+  width:50%;
+  height:200px;
+  /* text-align: left; */
+}.contact #message:focus{
+  box-shadow: 0 3px 2px rgba(81, 203, 238, 1);
+  outline-width:0;
 }
 
 /* 
@@ -283,3 +337,4 @@ a{
   font-size:2rem;
   margin-top:20px;
 }
+
