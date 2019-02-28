@@ -69,3 +69,7 @@
 .project-icon{
     font-size: 5rem;
 }
+
+.project-section{
+    justify-content: space-around;
+}

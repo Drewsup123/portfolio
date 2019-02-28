@@ -5,12 +5,13 @@ class Hexagon extends React.Component{
     constructor(){
         super();
         this.state = {
-            hoverClass : 'hidden'
+            hoverClass : 'hidden',
+            hoverClass2 : 'hidden',
         }
     }
     render(){
         return(
-            <section class="section section-gray no-padding spacing" >
+            <section className="project-section" >
                 <div 
                     className="box2 projects" 
                     onMouseEnter={()=>this.setState({hoverClass : ''})}
@@ -35,14 +36,14 @@ class Hexagon extends React.Component{
 
                 <div 
                     className="box2 projects2" 
-                    onMouseEnter={()=>this.setState({hoverClass : ''})}
-                    onMouseLeave={()=>this.setState({hoverClass : 'hidden'})}
+                    onMouseEnter={()=>this.setState({hoverClass2 : ''})}
+                    onMouseLeave={()=>this.setState({hoverClass2 : 'hidden'})}
                 >
                     <div className="box-content">
                         <p>S&J Architects</p>
                         <hr />
 
-                        <div className = {this.state.hoverClass}>
+                        <div className = {this.state.hoverClass2}>
                             <p>HTML, CSS/LESS, JavaScript</p>
                             <a 
                                 href="https://github.com/Drewsup123/front-end-project-week" 
