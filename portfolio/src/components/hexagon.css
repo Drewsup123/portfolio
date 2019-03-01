@@ -27,7 +27,7 @@
 }
 
 .projects {
-    width: 30%;
+    width: 49.5%;
     height: 500px;
     background-color: #333;
     background: url('https://i.ibb.co/YfPyjd2/Lambda-Notes.png') no-repeat center;
@@ -37,7 +37,7 @@
 }
 
 .projects2 {
-    width: 30%;
+    width: 49.5%;
     height: 500px;
     background-color: #333;
     background: url('https://i.ibb.co/x2hG9Z5/sandj.png');
@@ -71,5 +71,7 @@
 }
 
 .project-section{
-    justify-content: space-around;
+    width:50%;
+    display:flex;
+    justify-content: space-between;
 }

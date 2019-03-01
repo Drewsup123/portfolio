@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 // Component Imports
 import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
-import Hexagon from './components/hexagon-cards';
+import Projects from './components/Projects';
 import { Link, animateScroll as scroll, Element } from "react-scroll";
 
 class App extends Component {
@@ -56,7 +55,8 @@ class App extends Component {
           <Element name="test"/>
           <AboutMe />
           {/* <Projects /> */}
-          <Hexagon />
+          <h1 id="project-header">Projects</h1>
+          <Projects />
           <Contact />
         </div>
         <Footer />
