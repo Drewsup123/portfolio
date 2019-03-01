@@ -289,7 +289,7 @@ a{
 }
 
 #project-header{
-  margin-top:25px;
+  margin-top:100px;
 }
 
 /* 
@@ -340,5 +340,26 @@ a{
   color: white;
   font-size:2rem;
   margin-top:20px;
+}
+.footer-content{
+  display:flex;
+  width:80%;
+  justify-content: space-between;
+}
+
+.fa-chevron-up{
+  display: flex;
+  justify-content: center;
+  font-size:5vh;
+  text-align: center;
+  color:grey;
+  margin-top:-10vh;
+  cursor : pointer;
+  -webkit-animation: jump 1.5s ease 0s infinite normal ;
+  animation: jump 1.5s ease 0s infinite normal ;
+}
+.fa-chevron-up:hover{
+  color: black;
+  transition: 0.2s;
 }
 

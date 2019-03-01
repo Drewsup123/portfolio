@@ -25,7 +25,7 @@ class Projects extends React.Component{
                             <p>React, Node.JS, Express.JS</p>
                             <a 
                                 href="https://github.com/Drewsup123/front-end-project-week" 
-                                target="_blank">
+                                target="_blank" rel="noopener noreferrer">
                                 <i className='fab fa-github project-icon'></i>
                                 <i className="fas fa-globe project-icon"></i>
                             </a>
@@ -47,7 +47,7 @@ class Projects extends React.Component{
                             <p>HTML, CSS/LESS, JavaScript</p>
                             <a 
                                 href="https://github.com/Drewsup123/front-end-project-week" 
-                                target="_blank">
+                                target="_blank" rel="noopener noreferrer">
                                 <i className='fab fa-github project-icon'></i>
                                 <i className="fas fa-globe project-icon"></i>
                             </a>

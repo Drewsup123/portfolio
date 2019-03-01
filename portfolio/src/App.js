@@ -4,7 +4,7 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Projects from './components/Projects';
-import { Link, animateScroll as scroll, Element } from "react-scroll";
+import { Link, Element } from "react-scroll";
 
 class App extends Component {
   constructor(){
@@ -38,13 +38,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <Element name='header' />
         <header className="App-header">
           <div className="header-content">
             <h1>DREW <span id="last-name">JOHNSON</span></h1>
             <div className="change-text">{this.state.words[this.state.selected]}{/*<span className="blinker"></span>*/}</div>
             <div className="logos">
-              <a href="https://www.linkedin.com/in/drew-johnson-99ab34171/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
-              <a href="http://www.github.com/Drewsup123" target="_blank"><i className="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/drew-johnson-99ab34171/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+              <a href="http://www.github.com/Drewsup123" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
             </div>
           </div>
         </header>
