@@ -75,3 +75,15 @@
     display:flex;
     justify-content: space-between;
 }
+
+@media (max-width:1920px) {
+    .project-section{
+        width:71%;
+    }
+}
+
+@media (max-width: 800px){
+    .project-section{
+        width:100%;
+    }
+}
