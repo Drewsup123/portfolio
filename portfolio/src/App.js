@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Projects from './components/Projects';
+import Logos from './components/Logos';
 import { Link, Element } from "react-scroll";
 
 class App extends Component {
@@ -55,6 +56,7 @@ class App extends Component {
         <div className="sections">
           <Element name="test"/>
           <AboutMe />
+          {/* <Logos /> */}
           {/* <Projects /> */}
           <h1 id="project-header">Projects</h1>
           <Projects />

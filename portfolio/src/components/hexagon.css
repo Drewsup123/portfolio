@@ -44,6 +44,8 @@
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
+    /* transition: all 0.2s;
+    -webkit-transition: all 0.2s ease-in-out; */
 }
 .hidden{
     visibility: hidden;
@@ -61,9 +63,13 @@
     color:rgb(116, 114, 114);
 }
 
+.box2 hr{
+    width:100%;
+}
 .box2:hover hr {
     width: 15%;
     transition: all ease-in-out 0.3s;
+    
 }
 
 .project-icon{

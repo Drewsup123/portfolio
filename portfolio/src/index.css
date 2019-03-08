@@ -362,6 +362,14 @@ a{
   color: black;
   transition: 0.2s;
 }
+.icons{
+  display:flex;
+  width:50%;
+}
+.icons svg{
+  margin-top:100px;
+  width:32%;
+}
 /* REGULAR HD MONITOR */
 @media (max-width:1920px) { 
   .App header .logos{
@@ -375,7 +383,7 @@ a{
   }
 }
 /* PHONE VIEW */
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
 
-}
+} */
 
