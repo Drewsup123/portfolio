@@ -27,37 +27,32 @@
 }
 
 .projects {
-    width: 49.5%;
-    height: 500px;
-    background-color: #333;
     background: url('https://i.ibb.co/YfPyjd2/Lambda-Notes.png') no-repeat center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: multiply;
 }
 
 .projects2 {
-    width: 49.5%;
-    height: 500px;
-    background-color: #333;
     background: url('https://i.ibb.co/x2hG9Z5/sandj.png');
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: multiply;
-    /* transition: all 0.2s;
-    -webkit-transition: all 0.2s ease-in-out; */
 }
+
+.projects3 {
+    background: url('https://i.ibb.co/wphPM0K/Erudition-Site2.jpg');
+}
+
 .hidden{
     visibility: hidden;
 }
 
-.projects:hover{
-    background-color: rgba(0, 0, 0, 0.85);
-    background-blend-mode: darken;
-    color:rgb(116, 114, 114);
+.projectsH{
+    width: 50%;
+    height: 50vh;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.projects2:hover{
+.projectsH:hover{
     background-color: rgba(0, 0, 0, 0.85);
     background-blend-mode: darken;
     color:rgb(116, 114, 114);
@@ -77,10 +72,12 @@
 }
 
 .project-section{
-    width:50%;
+    width:100%;
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 
 @media (max-width:1920px) {
     .project-section{

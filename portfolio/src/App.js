@@ -4,7 +4,6 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Projects from './components/Projects';
-import Logos from './components/Logos';
 import { Link, Element } from "react-scroll";
 
 class App extends Component {
