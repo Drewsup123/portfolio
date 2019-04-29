@@ -5,6 +5,7 @@ class AboutMe extends React.Component{
         return(
             <section className="about-me">
                 <h1>About Me</h1>
+                <hr />
                 <p>
                     The name’s Drew Johnson. 
                     I am a tireless seeker of knowledge, occassional purveyor of wisdom and also, 
