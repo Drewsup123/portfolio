@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import { Element } from "react-scroll";
 import AnimatedBtn from './components/AnimatedBtn';
 import Modal from 'react-responsive-modal';
+import Contact from './components/contact'
 
 class App extends Component {
   constructor(){
@@ -103,7 +104,7 @@ componentDidMount(){
 
         
         <Modal modalId="contact-container" open={this.state.B_ContactOpen} onClose={()=>this.CloseModal('B_ContactOpen')} center>
-          
+          <Contact />
         </Modal>
 
       </div>

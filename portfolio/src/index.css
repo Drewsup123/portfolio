@@ -228,10 +228,13 @@ a{
       ABOUT ME
 */
 #about-me-container{
-  padding:10%;
+  padding:5%;
   background:rgba(223, 222, 222, 0.9);
   border-radius:10px;
   border:1px solid white;
+}
+.about-me{
+  width:100%;
 }
 .about-me h1{
   font-size: 4rem;
@@ -290,6 +293,21 @@ a{
 /* 
       CONTACT
 */
+#contact-container{
+  width:50%;
+  background:rgba(223, 222, 222, 0.9);
+  border-radius:10px;
+  border:1px solid white;
+}
+.contact{
+  padding:25px 5%;
+}
+.contact h1{
+  font-size:3rem;
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:25px;
+}
 .contact form{
   display: flex;
   flex-direction: column;
@@ -297,29 +315,57 @@ a{
   width:100%;
 }
 .contact form input{
-  width:10%;
-  border-radius: 5px;
-  box-shadow: none;
-  border:none;
-  border-bottom:1px solid black;
+  display: block;
+  width: 50%;
+  background: #e6e6e6;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
 }
 .contact form input:focus{
-  border-bottom:1px solid black;
-  box-shadow: 0 3px 2px rgba(81, 203, 238, 1);
+  box-shadow: 0 10px 10px rgb(0, 0, 0);
   outline-width:0;
+  border:1px solid black;
+  background:rgba(4, 0, 248, 0.185);
 }
+
 .contact #message{
-  border-radius: 7px;
-  box-shadow: none;
-  border:none;
-  border-bottom:1px solid black;
-  border-left:1px solid black;
-  width:50%;
-  height:200px;
-  /* text-align: left; */
+  display: block;
+  max-width: 50%;
+  min-width:50%;
+  background: #e6e6e6;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+  min-height: 150px;
+  border-radius: 25px;
+  padding: 12px 30px;
 }.contact #message:focus{
-  box-shadow: 0 3px 2px rgba(81, 203, 238, 1);
+  box-shadow: 0 10px 10px rgb(0, 0, 0);
   outline-width:0;
+  border:1px solid black;
+  background:rgba(4, 0, 248, 0.185)
+}
+
+#submit-message{
+  background:rgb(14, 14, 104);
+  color:white;
+  border:2px solid black;
+  cursor:pointer;
+  font-size:2rem;
+  transform:scale(0.95);
+  transition:0.5s;
+}
+#submit-message:hover{
+  background:green;
+  border:none;
+  transition:.5s;
+  transform:scale(1)
 }
 
 
