@@ -21,6 +21,7 @@ class Projects extends React.Component{
                     <div className="box-content">
                         <p className="card-title">Lambda Notes</p>
                         <hr />
+                        <p className="card-desc">Lambda Notes is a note taking app that utilizes front end and back end practices</p>
 
                         <div className = {this.state.hoverClass}>
                             <p className="project-stack">React, Node.JS, Express.JS</p>

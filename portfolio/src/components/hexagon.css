@@ -43,8 +43,8 @@
 }
 
 .projectsH{
-    width: 100%;
-    height: 50vh;
+    width: 90%;
+    height: 30vh;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.493);
     background-blend-mode: multiply;
@@ -76,7 +76,8 @@
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: column
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-title{
@@ -87,6 +88,14 @@
 .box2:hover .card-title{
     transition:.5s;
     background:none;
+}
+.card-desc{
+    font-size: 2rem;
+    background:rgba(255, 255, 255, 0.418);
+    text-align: center;
+}
+.box2:hover .card-desc{
+    display:none;
 }
 
 .project-stack{
