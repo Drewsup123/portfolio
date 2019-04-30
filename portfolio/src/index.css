@@ -330,7 +330,7 @@ a{
   box-shadow: 0 10px 10px rgb(0, 0, 0);
   outline-width:0;
   border:1px solid black;
-  background:rgba(4, 0, 248, 0.185);
+  background:rgba(4, 0, 248, 0.068);
 }
 
 .contact #message{
@@ -349,7 +349,7 @@ a{
   box-shadow: 0 10px 10px rgb(0, 0, 0);
   outline-width:0;
   border:1px solid black;
-  background:rgba(4, 0, 248, 0.185)
+  background:rgba(4, 0, 248, 0.041)
 }
 
 #submit-message{

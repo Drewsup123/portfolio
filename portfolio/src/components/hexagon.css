@@ -51,6 +51,7 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-top:35px;
+    border-radius:10px;
 }
 
 .projectsH:hover{
@@ -87,7 +88,7 @@
 }
 .box2:hover .card-title{
     transition:.5s;
-    background:none;
+    background: none;
 }
 .card-desc{
     font-size: 2rem;
