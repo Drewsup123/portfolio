@@ -57,12 +57,11 @@ a{
 }
 
 .blinker {
-  color: red;
-  opacity: 1;
+  color: white;
   margin-bottom: -2px;
   height: 15px;
   margin-left: -5px;
-  border-left: 7px solid black;
+  border-right: 3px solid white;
   animation: blinker 1s steps(2, start) infinite;
 }
 

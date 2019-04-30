@@ -13,7 +13,9 @@ class Projects extends React.Component{
     render(){
         return(
             <div className="project-section" >
-                <div 
+                <a
+                    href="https://5c847bf7921b68cdd3d10dc2--drews-note-taking-react-app.netlify.com/"
+                    target="_blank"
                     className="box2 projects projectsH" 
                     onMouseEnter={()=>this.setState({hoverClass : ''})}
                     onMouseLeave={()=>this.setState({hoverClass : 'hidden'})}
@@ -29,14 +31,21 @@ class Projects extends React.Component{
                                 href="https://github.com/Drewsup123/front-end-project-week" 
                                 target="_blank" rel="noopener noreferrer">
                                 <i className='fab fa-github project-icon'></i>
+                            </a>
+                            <a 
+                            href="https://5c847bf7921b68cdd3d10dc2--drews-note-taking-react-app.netlify.com/"
+                            target="_blank">
                                 <i className="fas fa-globe project-icon"></i>
                             </a>
+                            
                         </div>
 
                     </div>
-                </div>
+                </a>
 
-                <div 
+                <a
+                    href="https://s-and-j-architects.netlify.com/index.html"
+                    target="_blank"
                     className="box2 projects2 projectsH" 
                     onMouseEnter={()=>this.setState({hoverClass2 : ''})}
                     onMouseLeave={()=>this.setState({hoverClass2 : 'hidden'})}
@@ -51,12 +60,17 @@ class Projects extends React.Component{
                                 href="https://github.com/Drewsup123/front-end-project-week" 
                                 target="_blank" rel="noopener noreferrer">
                                 <i className='fab fa-github project-icon'></i>
+                            </a>
+                            <a 
+                            href="https://s-and-j-architects.netlify.com/index.html"
+                            target="_blank">
                                 <i className="fas fa-globe project-icon"></i>
                             </a>
+                            
                         </div>
 
                     </div>
-                </div>
+                </a>
 
                 <a 
                     href="https://learned-app.now.sh/"
