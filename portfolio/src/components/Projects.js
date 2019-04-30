@@ -44,7 +44,7 @@ class Projects extends React.Component{
                     <div className="box-content">
                         <p className="card-title">S&J Architects</p>
                         <hr />
-
+                        <p className="card-desc">A simple webpage with full responsiveness and pure JavaScript functionality</p>
                         <div className = {this.state.hoverClass2}>
                             <p className="project-stack">HTML, CSS/LESS, JavaScript</p>
                             <a 
@@ -66,7 +66,8 @@ class Projects extends React.Component{
                     <div className="box-content">
                         <p className="card-title">Erudition</p>
                         <hr />
-
+                        <p className="card-desc">Erudition is a social learning network that allows users to save and share articles
+                        and courses that have read or taken</p>
                         <div className = {this.state.hoverClass3}>
                             <p className="project-stack">React, React Context/Hooks, NextJS, Firebase, NodeJs, Express</p>
                             <a 

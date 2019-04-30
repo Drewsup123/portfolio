@@ -83,7 +83,7 @@
 
 .card-title{
     font-size: 3rem;
-    background:rgba(255, 255, 255, 0.418);
+    background:rgba(255, 255, 255, 0.774);
     text-align: center;
 }
 .box2:hover .card-title{
@@ -92,7 +92,7 @@
 }
 .card-desc{
     font-size: 2rem;
-    background:rgba(255, 255, 255, 0.418);
+    background:rgba(255, 255, 255, 0.774);
     text-align: center;
 }
 .box2:hover .card-desc{
