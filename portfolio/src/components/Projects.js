@@ -58,7 +58,9 @@ class Projects extends React.Component{
                     </div>
                 </div>
 
-                <div 
+                <a 
+                    href="https://learned-app.now.sh/"
+                    target="_blank"
                     className="box2 projects3 projectsH" 
                     onMouseEnter={()=>this.setState({hoverClass3 : ''})}
                     onMouseLeave={()=>this.setState({hoverClass3 : 'hidden'})}
@@ -84,7 +86,7 @@ class Projects extends React.Component{
                         </div>
 
                     </div>
-                </div>
+                </a>
             </div>
             
         );

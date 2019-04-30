@@ -10,6 +10,7 @@
     -ms-user-select: none;
     user-select: none;
     cursor: pointer;
+    color:black;
 }
 
 .box2:hover .box-content {
