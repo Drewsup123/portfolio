@@ -85,7 +85,7 @@ componentDidMount(){
                 </div>
             </div>
             <hr style={{width:'30%', height:1}}/>
-            <hr style={{width:1, height:"55px" }}/>
+            <hr className="vertical-line"/>
             <ul className="tabs" >
               <li onClick={()=>this.OpenModal('B_aboutMeOpen')}><AnimatedBtn title="About Me"/></li>
               <li onClick={()=>this.OpenModal('B_ProjectsOpen')}><AnimatedBtn title="Projects"/></li>
