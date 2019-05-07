@@ -8,61 +8,34 @@ class Projects extends React.Component{
             hoverClass : 'hidden',
             hoverClass2 : 'hidden',
             hoverClass3 : 'hidden',
+            hoverClass4: 'hidden',
         }
     }
     render(){
         return(
             <div className="project-section" >
                 <a
-                    href="https://5c847bf7921b68cdd3d10dc2--drews-note-taking-react-app.netlify.com/"
+                    href="https://swooblz.netlify.com/"
                     target="_blank"
-                    className="box2 projects projectsH" 
-                    onMouseEnter={()=>this.setState({hoverClass : ''})}
-                    onMouseLeave={()=>this.setState({hoverClass : 'hidden'})}
+                    rel="noopener noreferrer"
+                    className="box2 projects4 projectsH" 
+                    onMouseEnter={()=>this.setState({hoverClass4 : ''})}
+                    onMouseLeave={()=>this.setState({hoverClass4 : 'hidden'})}
                 >
                     <div className="box-content">
-                        <p className="card-title">Lambda Notes</p>
+                        <p className="card-title">Swooblz</p>
                         <hr />
-                        <p className="card-desc">Lambda Notes is a note taking app that utilizes front end and back end practices</p>
-
-                        <div className = {this.state.hoverClass}>
-                            <p className="project-stack">React, Node.JS, Express.JS</p>
+                        <p className="card-desc">A Slack clone with chat groups and private messaging functionality</p>
+                        <div className = {this.state.hoverClass4}>
+                            <p className="project-stack">React, Redux, Firebase Realtime Database, SemanticUI, CSS</p>
                             <a 
-                                href="https://github.com/Drewsup123/front-end-project-week" 
+                                href="https://github.com/Drewsup123/Swooblz-official" 
                                 target="_blank" rel="noopener noreferrer">
                                 <i className='fab fa-github project-icon'></i>
                             </a>
                             <a 
-                            href="https://5c847bf7921b68cdd3d10dc2--drews-note-taking-react-app.netlify.com/"
-                            target="_blank">
-                                <i className="fas fa-globe project-icon"></i>
-                            </a>
-                            
-                        </div>
-
-                    </div>
-                </a>
-
-                <a
-                    href="https://s-and-j-architects.netlify.com/index.html"
-                    target="_blank"
-                    className="box2 projects2 projectsH" 
-                    onMouseEnter={()=>this.setState({hoverClass2 : ''})}
-                    onMouseLeave={()=>this.setState({hoverClass2 : 'hidden'})}
-                >
-                    <div className="box-content">
-                        <p className="card-title">S&J Architects</p>
-                        <hr />
-                        <p className="card-desc">A simple webpage with full responsiveness and pure JavaScript functionality</p>
-                        <div className = {this.state.hoverClass2}>
-                            <p className="project-stack">HTML, CSS/LESS, JavaScript</p>
-                            <a 
-                                href="https://github.com/Drewsup123/front-end-project-week" 
-                                target="_blank" rel="noopener noreferrer">
-                                <i className='fab fa-github project-icon'></i>
-                            </a>
-                            <a 
-                            href="https://s-and-j-architects.netlify.com/index.html"
+                            rel="noopener noreferrer"
+                            href="https://swooblz.netlify.com/"
                             target="_blank">
                                 <i className="fas fa-globe project-icon"></i>
                             </a>
@@ -75,6 +48,7 @@ class Projects extends React.Component{
                 <a 
                     href="https://learned-app.now.sh/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="box2 projects3 projectsH" 
                     onMouseEnter={()=>this.setState({hoverClass3 : ''})}
                     onMouseLeave={()=>this.setState({hoverClass3 : 'hidden'})}
@@ -97,6 +71,69 @@ class Projects extends React.Component{
                                 target="_blank" rel="noopener noreferrer">
                                 <i className="fas fa-globe project-icon"></i>
                             </a>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a
+                    href="https://5c847bf7921b68cdd3d10dc2--drews-note-taking-react-app.netlify.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="box2 projects projectsH" 
+                    onMouseEnter={()=>this.setState({hoverClass : ''})}
+                    onMouseLeave={()=>this.setState({hoverClass : 'hidden'})}
+                >
+                    <div className="box-content">
+                        <p className="card-title">Lambda Notes</p>
+                        <hr />
+                        <p className="card-desc">Lambda Notes is a note taking app that utilizes front end and back end practices</p>
+
+                        <div className = {this.state.hoverClass}>
+                            <p className="project-stack">React, Node.JS, Express.JS</p>
+                            <a 
+                                href="https://github.com/Drewsup123/front-end-project-week" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i className='fab fa-github project-icon'></i>
+                            </a>
+                            <a 
+                            rel="noopener noreferrer"
+                            href="https://5c847bf7921b68cdd3d10dc2--drews-note-taking-react-app.netlify.com/"
+                            target="_blank">
+                                <i className="fas fa-globe project-icon"></i>
+                            </a>
+                            
+                        </div>
+
+                    </div>
+                </a>
+
+                <a
+                    href="https://s-and-j-architects.netlify.com/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="box2 projects2 projectsH" 
+                    onMouseEnter={()=>this.setState({hoverClass2 : ''})}
+                    onMouseLeave={()=>this.setState({hoverClass2 : 'hidden'})}
+                >
+                    <div className="box-content">
+                        <p className="card-title">S&J Architects</p>
+                        <hr />
+                        <p className="card-desc">A simple webpage with full responsiveness and pure JavaScript functionality</p>
+                        <div className = {this.state.hoverClass2}>
+                            <p className="project-stack">HTML, CSS/LESS, JavaScript</p>
+                            <a 
+                                href="https://github.com/Drewsup123/front-end-project-week" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i className='fab fa-github project-icon'></i>
+                            </a>
+                            <a 
+                            rel="noopener noreferrer"
+                            href="https://s-and-j-architects.netlify.com/index.html"
+                            target="_blank">
+                                <i className="fas fa-globe project-icon"></i>
+                            </a>
+                            
                         </div>
 
                     </div>
