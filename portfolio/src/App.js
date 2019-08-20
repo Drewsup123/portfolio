@@ -108,7 +108,7 @@ componentDidMount(){
                 </div>
             </div>
             <motion.hr animate={{width : ["0%","30%"], duration:5}} />
-            <motion.hr animate={{height : [1,55], duration:5}} />
+            <motion.hr className="vertical-line" animate={{height : [1,55], duration:5}} />
             <ul className="tabs" >
               <li onClick={()=>{this.OpenModal("B_aboutMeOpen")}}><AnimatedBtn title="About Me" /></li>
               <li onClick={()=>this.OpenModal('B_ProjectsOpen')}><AnimatedBtn title="Projects"/></li>
@@ -136,7 +136,16 @@ componentDidMount(){
           ?
           <div
             id="p"
-            style={{position : "fixed",top:"0%", left:"0%",width:"100vw", height:"100vh",}} 
+            style={{
+              position : "fixed",
+              top:"0%", 
+              left:"0%",
+              width:"100vw", 
+              height:"100vh",
+              '@media (max-height: 800px)' : {
+                
+              }
+            }} 
             onClick={e => this.testClickHandler(e, "B_aboutMeOpen", "B_aboutMeClosing")}
           >
             <motion.div
@@ -176,7 +185,14 @@ componentDidMount(){
           >
             <motion.div
               id="projects-container"
-              style={{overflowY:"scroll", position : "fixed", top:"10%", left:"17.5%", right:"17.5%", bottom : "10%"}}
+              style={{
+                overflowY:"scroll", 
+                position : "fixed", 
+                top:"10%", 
+                left:"17.5%", 
+                right:"17.5%", 
+                bottom : "10%",
+              }}
               animate={
                 this.state.B_ProjectsClosing 
                 ?

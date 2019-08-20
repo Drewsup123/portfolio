@@ -69,6 +69,12 @@
     color:rgb(116, 114, 114);
 }
 
+@media (max-width:1440px) { 
+    .projectsH{
+        width : 75%;
+    }
+}
+
 .box2 hr{
     width:100%;
 }
