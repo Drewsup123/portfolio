@@ -36,6 +36,7 @@
 
 .projects2 {
     background: url('https://i.ibb.co/x2hG9Z5/sandj.png');
+    margin-bottom: 25px
 }
 
 .projects3 {
@@ -51,7 +52,7 @@
 }
 
 .projectsH{
-    width: 90%;
+    width: 50%;
     height: 30vh;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.493);
