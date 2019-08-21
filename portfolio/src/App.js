@@ -142,9 +142,6 @@ componentDidMount(){
               left:"0%",
               width:"100vw", 
               height:"100vh",
-              '@media (max-height: 800px)' : {
-                
-              }
             }} 
             onClick={e => this.testClickHandler(e, "B_aboutMeOpen", "B_aboutMeClosing")}
           >
@@ -227,7 +224,6 @@ componentDidMount(){
           >
             <motion.div
               id="contact-container"
-              style={{position : "fixed", top:"35%", left:"30%", right:"30%", bottom : "31%"}}
               animate={
                 this.state.B_ContactClosing 
                 ?

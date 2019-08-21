@@ -302,6 +302,11 @@ a{
   background:rgba(223, 222, 222, 0.9);
   border-radius:10px;
   border:1px solid white;
+  position : fixed;
+  top:35%; 
+  left:30%; 
+  right:30%; 
+  bottom : 31%;
 }
 .contact{
   padding:25px 5%;
@@ -434,6 +439,20 @@ a{
     padding : 0;
     padding-right:10px;
     padding-left : 10px;
+  }
+  #contact-container{
+    top:15%; 
+    left:30%; 
+    right:30%; 
+    bottom : 15%;
+  }
+  .contact form input{
+    width : 80%;
+  }
+  .contact form #message{
+    min-width: 80%;
+    width : 80%;
+    max-height:200px;
   }
 }
 
