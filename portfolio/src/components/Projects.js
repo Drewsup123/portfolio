@@ -9,11 +9,42 @@ class Projects extends React.Component{
             hoverClass2 : 'hidden',
             hoverClass3 : 'hidden',
             hoverClass4: 'hidden',
+            hoverClass5 : 'hidden'
         }
     }
     render(){
         return(
             <div className="project-section" >
+                <a
+                    href="https://www.decentralizeddrive.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="box2 projects5 projectsH" 
+                    onMouseEnter={()=>this.setState({hoverClass5 : ''})}
+                    onMouseLeave={()=>this.setState({hoverClass5 : 'hidden'})}
+                >
+                    <div className="box-content">
+                        <p className="card-title">Decentralized Drive</p>
+                        <hr />
+                        <p className="card-desc">A decentralized Google Drive like application that allows users to create and import documents, images, pdfs, and JavaScript files</p>
+                        <div className = {this.state.hoverClass5}>
+                            <p className="project-stack">React, Redux, Material-UI, Blockstack</p>
+                            <a 
+                                href="https://github.com/Drewsup123/BlockStack-App" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i className='fab fa-github project-icon'></i>
+                            </a>
+                            <a 
+                            rel="noopener noreferrer"
+                            href="https://www.decentralizeddrive.com/"
+                            target="_blank">
+                                <i className="fas fa-globe project-icon"></i>
+                            </a>
+                            
+                        </div>
+
+                    </div>
+                </a>
                 <a
                     href="https://swooblz.netlify.com/"
                     target="_blank"
