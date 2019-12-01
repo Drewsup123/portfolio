@@ -78,7 +78,7 @@ testClickHandler = (e, modalId, closingId) => {
     setTimeout(() => {
       this.setState({[modalId] : false})
       this.setState({[closingId] : false})
-    }, 2000);
+    }, 1000);
   }
 }
 

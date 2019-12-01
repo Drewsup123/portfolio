@@ -107,7 +107,7 @@ class Projects extends React.Component{
                     </div>
                 </a>
 
-                <a
+                {/* <a
                     href="https://5c847bf7921b68cdd3d10dc2--drews-note-taking-react-app.netlify.com/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -137,7 +137,7 @@ class Projects extends React.Component{
                         </div>
 
                     </div>
-                </a>
+                </a> */}
 
                 <a
                     href="https://s-and-j-architects.netlify.com/index.html"
