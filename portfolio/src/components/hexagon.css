@@ -10,10 +10,10 @@
     -ms-user-select: none;
     user-select: none;
     cursor: pointer;
-    color:black;
-    -webkit-box-shadow: -1px 14px 62px -17px rgba(0,0,0,0.64);
-    -moz-box-shadow: -1px 14px 62px -17px rgba(0,0,0,0.64);
-    box-shadow: -1px 14px 62px -17px rgba(0,0,0,0.64);
+    color: black;
+    -webkit-box-shadow: -1px 14px 62px -17px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: -1px 14px 62px -17px rgba(0, 0, 0, 0.64);
+    box-shadow: -1px 14px 62px -17px rgba(0, 0, 0, 0.64);
 }
 
 .box2:hover .box-content {
@@ -31,100 +31,100 @@
 }
 
 .projects {
-    background: url('https://i.ibb.co/YfPyjd2/Lambda-Notes.png') no-repeat center;
+    background: url("https://i.ibb.co/YfPyjd2/Lambda-Notes.png") no-repeat
+        center;
 }
 
 .projects2 {
-    background: url('https://i.ibb.co/x2hG9Z5/sandj.png');
-    margin-bottom: 25px
+    background: url("https://i.ibb.co/x2hG9Z5/sandj.png");
+    margin-bottom: 25px;
 }
 
 .projects3 {
-    background: url('https://i.ibb.co/wphPM0K/Erudition-Site2.jpg');
+    background: url("https://i.ibb.co/wphPM0K/Erudition-Site2.jpg");
 }
 
-.projects4{
-    background:url("https://i.ibb.co/QQHk5q5/2019-05-07.png");
+.projects4 {
+    background: url("https://i.ibb.co/QQHk5q5/2019-05-07.png");
 }
 
-.projects5{
-    background:url("https://i.imgur.com/S7OmElZ.png");
+.projects5 {
+    background: url("https://i.imgur.com/S7OmElZ.png");
 }
 
-.hidden{
+.hidden {
     visibility: hidden;
 }
 
-.projectsH{
+.projectsH {
     width: 50%;
     height: 30vh;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.493);
-    background-blend-mode: multiply;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top:35px;
-    border-radius:10px;
+    background-size: cover !important;
+    background-color: rgba(0, 0, 0, 0.493) !important;
+    background-blend-mode: multiply !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    margin-top: 35px;
+    border-radius: 10px;
 }
 
-.projectsH:hover{
-    background-color: rgba(0, 0, 0, 0.85);
-    background-blend-mode: darken;
-    color:rgb(116, 114, 114);
+.projectsH:hover {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    background-blend-mode: darken !important;
+    color: rgb(116, 114, 114) !important;
 }
 
-@media (max-width:1440px) { 
-    .projectsH{
-        width : 75%;
+@media (max-width: 1440px) {
+    .projectsH {
+        width: 75%;
     }
 }
 
-.box2 hr{
-    width:100%;
+.box2 hr {
+    width: 100%;
 }
 .box2:hover hr {
     width: 15%;
     transition: all ease-in-out 0.3s;
 }
 
-.project-icon{
+.project-icon {
     font-size: 5rem;
 }
 
-.project-section{
-    width:100%;
-    display:flex;
+.project-section {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
 }
 
-.card-title{
+.card-title {
     font-size: 3rem;
-    background:rgba(255, 255, 255, 0.774);
+    background: rgba(255, 255, 255, 0.774);
     text-align: center;
 }
-.box2:hover .card-title{
-    transition:.5s;
+.box2:hover .card-title {
+    transition: 0.5s;
     background: none;
 }
-.card-desc{
+.card-desc {
     font-size: 2rem;
-    background:rgba(255, 255, 255, 0.774);
+    background: rgba(255, 255, 255, 0.774);
     text-align: center;
 }
-.box2:hover .card-desc{
-    display:none;
+.box2:hover .card-desc {
+    display: none;
 }
 
-.project-stack{
+.project-stack {
     font-size: 2rem;
 }
 
-
-@media (max-width:1440px) {
-    .projectsH{
-        height:50vh;
+@media (max-width: 1440px) {
+    .projectsH {
+        height: 50vh;
     }
 }
