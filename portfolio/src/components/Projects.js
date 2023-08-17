@@ -52,6 +52,7 @@ class Projects extends React.Component {
                     websiteLink="https://s-and-j-architects.netlify.com/index.html"
                     backgroundUrl="https://i.ibb.co/x2hG9Z5/sandj.png"
                 />
+                {/* Add this later when bugs are fixed */}
                 {/* <a
                     href="https://5c847bf7921b68cdd3d10dc2--drews-note-taking-react-app.netlify.com/"
                     target="_blank"
