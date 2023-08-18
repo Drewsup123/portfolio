@@ -197,6 +197,7 @@ class App extends Component {
                                 left: "30%",
                                 right: "30%",
                                 bottom: "30%",
+                                height: "fit-content",
                             }}
                             animate={
                                 this.state.B_aboutMeClosing
