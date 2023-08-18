@@ -1,6 +1,8 @@
 import React from "react";
 import "./hexagon.css";
 import ProjectCard from "./ProjectCard";
+import SightRightImage from "../images/sightright.JPG";
+import ChannelProgramImage from "../images/channelprogram.JPG";
 
 class Projects extends React.Component {
     constructor() {
@@ -16,6 +18,33 @@ class Projects extends React.Component {
     render() {
         return (
             <div className="project-section">
+                <ProjectCard
+                    href="https://channelprogram.com/"
+                    title="Channel Program"
+                    description="An application where Vendors, MSP’s, and investors can easily communicate and organize. With monthly live events for vendors to pitch their products."
+                    stack="React, Context, Bootstrap, Material UI, React-Query, Recharts"
+                    githubLink=""
+                    websiteLink="https://channelprogram.com/"
+                    backgroundUrl={ChannelProgramImage}
+                />
+                <ProjectCard
+                    href="#"
+                    title="LaunchPoint Portal"
+                    description="A company application that handles HR requests such as pay rate, timesheets, onboarding, and updating employee info."
+                    stack="React, Redux, Bootstrap, ESRI Maps, Quickbooks API, OAuth2"
+                    githubLink=""
+                    websiteLink=""
+                    backgroundUrl={""}
+                />
+                <ProjectCard
+                    href="https://www.golaunchpoint.com/"
+                    title="SightRight"
+                    description="An application allowing companies to perform various actions. Such as site survey, accident investigation, pipeline surveys, as well as a custom forms module allowing a company to tailor forms to their needs"
+                    stack="React, Redux, Bootstrap, ESRI Maps"
+                    githubLink=""
+                    websiteLink="https://www.golaunchpoint.com/"
+                    backgroundUrl={SightRightImage}
+                />
                 <ProjectCard
                     href="https://www.decentralizeddrive.com/"
                     title="Decentralized Drive"
