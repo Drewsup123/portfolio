@@ -382,7 +382,7 @@ a {
 */
 #contact-container {
     width: 40%;
-    background: rgba(223, 222, 222, 0.9);
+    background: rgba(223, 222, 222, 0.95);
     border-radius: 10px;
     border: 1px solid white;
     position: fixed;
