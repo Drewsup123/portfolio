@@ -50,6 +50,7 @@
     background-color: rgba(0, 0, 0, 0.85) !important;
     background-blend-mode: darken !important;
     color: rgb(116, 114, 114) !important;
+    transition: all 0.5s ease-in-out;
 }
 
 @media (max-width: 1440px) {
@@ -77,6 +78,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 40px;
 }
 .card-details {
     background: rgba(255, 255, 255, 0.774);
