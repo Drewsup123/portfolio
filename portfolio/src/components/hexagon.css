@@ -38,7 +38,7 @@
     width: 50%;
     height: 30vh;
     background-size: cover !important;
-    background-color: rgba(0, 0, 0, 0.493) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     background-blend-mode: multiply !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -81,7 +81,7 @@
     padding-bottom: 40px;
 }
 .card-details {
-    background: rgba(255, 255, 255, 0.774);
+    background: rgba(255, 255, 255, 0.75);
     padding: 10px;
 }
 
