@@ -201,7 +201,7 @@ a {
 
 .App header .logos {
     display: flex;
-    width: 6%;
+    width: 7%;
     justify-content: space-between;
     color: white;
 }
@@ -467,11 +467,28 @@ a {
     width: 1;
     height: 55px;
 }
-
+@media (max-width: 1650px) {
+    .App header .logos {
+        width: 10%;
+    }
+    .vertical-line {
+        height: 15px;
+        margin-top: 0;
+    }
+}
 /* REGULAR HD MONITOR */
 @media (max-width: 1440px) {
     .App header .logos {
         width: 10%;
+    }
+    .vertical-line {
+        height: 15px;
+        margin-top: 0;
+    }
+}
+@media (max-width: 1200px) {
+    .App header .logos {
+        width: 15%;
     }
     .vertical-line {
         height: 15px;
