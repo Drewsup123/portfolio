@@ -63,7 +63,7 @@
 }
 .box2:hover hr {
     width: 15%;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 1.5s;
 }
 
 .project-icon {
@@ -88,11 +88,11 @@
     text-align: center;
 }
 .box2:hover .card-title {
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
     background: none;
 }
 .box2:hover .card-details {
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
     background: none;
 }
 .card-desc {
