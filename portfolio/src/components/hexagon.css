@@ -30,28 +30,6 @@
     -webkit-transition: all 0.2s ease-in-out;
 }
 
-.projects {
-    background: url("https://i.ibb.co/YfPyjd2/Lambda-Notes.png") no-repeat
-        center;
-}
-
-.projects2 {
-    background: url("https://i.ibb.co/x2hG9Z5/sandj.png");
-    margin-bottom: 25px;
-}
-
-.projects3 {
-    background: url("https://i.ibb.co/wphPM0K/Erudition-Site2.jpg");
-}
-
-.projects4 {
-    background: url("https://i.ibb.co/QQHk5q5/2019-05-07.png");
-}
-
-.projects5 {
-    background: url("https://i.imgur.com/S7OmElZ.png");
-}
-
 .hidden {
     visibility: hidden;
 }
@@ -100,19 +78,25 @@
     flex-direction: column;
     align-items: center;
 }
+.card-details {
+    background: rgba(255, 255, 255, 0.774);
+    padding: 10px;
+}
 
 .card-title {
     font-size: 3rem;
-    background: rgba(255, 255, 255, 0.774);
     text-align: center;
 }
 .box2:hover .card-title {
     transition: 0.5s;
     background: none;
 }
+.box2:hover .card-details {
+    transition: 0.5s;
+    background: none;
+}
 .card-desc {
     font-size: 2rem;
-    background: rgba(255, 255, 255, 0.774);
     text-align: center;
 }
 .box2:hover .card-desc {
@@ -121,6 +105,7 @@
 
 .project-stack {
     font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 1440px) {

@@ -24,9 +24,11 @@ const ProjectCard = (props) => {
             }}
         >
             <div className="box-content">
-                <p className="card-title">{title}</p>
-                <hr />
-                <p className="card-desc">{description}</p>
+                <div className="card-details">
+                    <p className="card-title">{title}</p>
+                    <hr />
+                    <p className="card-desc">{description}</p>
+                </div>
                 <div className={hovering ? "" : "hidden"}>
                     <p className="project-stack">{stack}</p>
                     {githubLink && (
@@ -34,6 +36,7 @@ const ProjectCard = (props) => {
                             href={githubLink}
                             target="_blank"
                             rel="noopener noreferrer"
+                            style={{ marginRight: 10 }}
                         >
                             <i className="fab fa-github project-icon" />
                         </a>
