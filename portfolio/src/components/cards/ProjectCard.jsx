@@ -1,8 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
+import Box from "@mui/material/Box";
 
 const Card = styled.div`
-  width: 330px;
+  width: calc(50% - 28px);
   height: 490px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
@@ -22,7 +25,7 @@ const Card = styled.div`
 `;
 const Image = styled.img`
   width: 100%;
-  height: 180px;
+  height: 200px;
   background-color: ${({ theme }) => theme.white};
   border-radius: 10px;
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
@@ -93,6 +96,9 @@ const Button = styled.a`
   text-decoration: none;
   font-weight: 600;
   text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 `;
 
 const ProjectCard = ({ project }) => {
@@ -110,9 +116,22 @@ const ProjectCard = ({ project }) => {
           <Avatar src={member.img} />
         ))}
       </Members>
-      <Button href={project.github} target="_blank">
-        View Code
-      </Button>
+      <Box sx={{display: "flex", alignItem: "center", justifyContent: "center", gap: 16}}>
+        {!!project.github && (
+          <Button href={project.github} target="_blank">
+            <CodeOutlinedIcon />
+            View Code
+          </Button>
+        )}
+        {
+          !!project.webapp && (
+            <Button href={project.webapp} target="_blank">
+              <LanguageOutlinedIcon />
+              View Website
+            </Button>
+          )
+        }
+      </Box>
     </Card>
   );
 };

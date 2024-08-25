@@ -3,9 +3,9 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+  const earth = useGLTF("./react_logo_circle/scene.gltf");
   return (
-    <primitive object={earth.scene} scale={3} position-y={0} rotation-y={0} />
+    <primitive object={earth.scene} scale={1} position-y={0} rotation-y={0} />
   );
 };
 
@@ -25,7 +25,7 @@ const EarthCanvas = () => {
     >
       <Suspense fallback={null}>
         <OrbitControls
-          autoRotate
+          autoRotate={false}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
