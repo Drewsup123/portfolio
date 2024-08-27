@@ -14,11 +14,11 @@ useGLTF.preload(MyTexture)
 useTexture.preload(MyBandTexture)
 
 export default function Lanyard() {
-  const { debug } = useControls({ debug: false })
+  // const { debug } = useControls({ debug: true })
   return (
     <Canvas camera={{ position: [0, 0, 13], fov: 25 }} style={{height: 500, width: 500}}>
       <ambientLight intensity={Math.PI} />
-      <Physics debug={debug} interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
+      <Physics interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
         <Band />
       </Physics>
       <Environment blur={0.75}>
