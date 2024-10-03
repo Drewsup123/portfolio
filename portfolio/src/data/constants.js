@@ -2,6 +2,7 @@ import ExpoLogo from "../images/logo-type-a-light.png";
 import ChannelProgramSiteImg from "../images/channelprogram.JPG"
 import SightRightSiteImg from "../images/sightright.JPG"
 import AllInOneWeldingSiteImg from "../images/all-in-one-welding-site-img.JPG";
+import AIImgToolsSiteImg from "../images/aiimgtoolsimg.JPG";
 
 export const Bio = {
   name: "Drew Johnson",
@@ -309,6 +310,19 @@ export const projects = [
     category: "web app",
     // github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://www.golaunchpoint.com/",
+  },
+  {
+    id: 11,
+    title: "AI Image Tools",
+    date: "Aug 2024",
+    description:
+      "Developed a web application that integrates multiple AI-powered image editing tools, providing users with seamless editing capabilities. Implemented secure Stripe payments for premium features, with Firebase handling authentication and database management for a scalable backend solution.",
+    image:
+      AIImgToolsSiteImg,
+    tags: ["React Js", "Firebase", "Stripe"],
+    category: "web app",
+    // github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://www.aiimgtools.com/",
   },
   {
     id: 5,
