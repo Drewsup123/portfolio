@@ -1,4 +1,5 @@
 import { render, screen, within } from "@testing-library/react";
+import "@testing-library/jest-dom";
 import App from "./App";
 
 jest.mock("react-tilt", () => ({
@@ -28,7 +29,7 @@ describe("modern portfolio redesign", () => {
     expect(
       screen.getByRole("heading", { name: /react product engineer/i })
     ).toBeInTheDocument();
-    expect(screen.getByText(/Drew Johnson/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/Drew Johnson/i).length).toBeGreaterThan(0);
     expect(screen.getByRole("link", { name: /view resume/i })).toHaveAttribute(
       "href",
       expect.stringContaining("docs.google.com")
@@ -60,7 +61,7 @@ describe("modern portfolio redesign", () => {
     render(<App />);
 
     const skills = screen.getByRole("region", { name: /skills/i });
-    expect(within(skills).getByText(/React/i)).toBeInTheDocument();
+    expect(within(skills).getAllByText(/React/i).length).toBeGreaterThan(0);
     expect(within(skills).getByText(/React Query/i)).toBeInTheDocument();
     expect(within(skills).getByText(/Component Systems/i)).toBeInTheDocument();
 
